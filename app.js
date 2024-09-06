@@ -45,9 +45,33 @@ switch (love){
 
 //loops
 
-let jude;
-for (let j = 0; j < jude; j++){
-    console.log("My name is" + j + jude)
-    j++
+let jude = 5;
+
+for (let j = 1; j <= jude; j++){
+    console.log("Jude")
+    
 }
 
+//functional programming
+function showOddorEven(){
+if (x%5==0){
+    console.log("Odd");
+    }else{ 
+        console.log("Even");
+    }
+}
+console.log(showOddorEven());
+
+
+function showPrime(){
+if (x%5==1){
+    console.log("Highier Number");
+    }else{ 
+        console.log("Lower NUmber");
+     }
+    }
+    console.log(showPrime());
+
+    function showPalindrome(){
+        
+    }

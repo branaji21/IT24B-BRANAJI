@@ -41,12 +41,12 @@ const calculator = new Calculator();
 
 console.log('Initial result:', calculator.getResult());
 
-console.log('Add 10:', calculator.add(10));
-console.log('Subtract 4:', calculator.subtract(4));
-console.log('Multiply by 3:', calculator.multiply(3));
-console.log('Divide by 2:', calculator.divide(2));
+console.log('Add :', calculator.add(10));
+console.log('Subtract :', calculator.subtract(4));
+console.log('Multiply by :', calculator.multiply(3));
+console.log('Divide by :', calculator.divide(2));
 
-const divisionByZero = calculator.divide(0);
+const divisionByZero = calculator.divide(5);
 if (divisionByZero === null) {
     console.log('Division by zero operation was not successful.');
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart's with OOP</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .chart-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      .chart-card {
+        width: 800px;
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Chart's of # of Student's and passer</h1>
+    <div class="chart-container">
+    
+      <div class="chart-card">
+        <canvas id="barChart"></canvas>
+      </div>
+
+      <div class="chart-card">
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+
+    <script src="chart.js"></script>
+  </body>
+</html>
